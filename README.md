@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-FlightGear Flight Simulator: Version 2019.1.1 (https://www.flightgear.org/download/) 
+[FlightGear](https://www.flightgear.org/download/) (Flight Simulator): Version 2019.1.1
 Versions c++14 and below are allowed for the project
 
 ### Installing
@@ -21,9 +21,8 @@ CLion
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-
+* **Ezequiel Glocer** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Erez Rizegvsky** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 ## License
 
