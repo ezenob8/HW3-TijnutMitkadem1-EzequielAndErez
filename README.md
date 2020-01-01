@@ -8,6 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 [FlightGear](https://www.flightgear.org/download/) (Flight Simulator): Version 2019.1.1
+
 Versions c++14 and below are allowed for the project
 
 ### Installing
