@@ -16,9 +16,9 @@ Compiling:
 g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -o FGinterpreter.out -pthread
 
 ## Built With
-Ubuntu OS "buster/sid"
-5.0.0-37-generic #40~18.04.1-Ubuntu SMP Thu Nov 14 12:06:39 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
-CLion
+* **[Ubuntu](https://ubuntu.com/download/desktop) OS "buster/sid"** - 5.0.0-37-generic #40~18.04.1-Ubuntu SMP UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+* **CLion** - Version 2019.2.5
 
 ## Authors
 
