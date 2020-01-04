@@ -18,7 +18,7 @@ g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -o FGin
 ## Built With
 * **[Ubuntu](https://ubuntu.com/download/desktop) - Version "buster/sid"** - 5.0.0-37-generic #40~18.04.1-Ubuntu SMP UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 
-* **CLion** - Version 2019.2.5
+* **[CLion](https://www.jetbrains.com/es-es/clion/download/#section=linux)** - Version 2019.2.5
 
 ## Authors
 
