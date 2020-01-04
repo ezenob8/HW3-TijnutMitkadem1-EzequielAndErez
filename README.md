@@ -22,16 +22,10 @@ g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -o FGin
 
 ## Authors
 
-* **Ezequiel Glocer** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Erez Rizegvsky** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Ezequiel Glocer**
+* **Erez Rizegvsky**
 
 ## License
 
 This project is licensed under the Apache License 2.0
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
