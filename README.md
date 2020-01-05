@@ -13,15 +13,15 @@ Versions c++14 and below are allowed for the project
 
 ### Installing
 
-Step 1:
+### Step 1:
 As we see in the prerequisites, first of all we need to download the Flight Gear in our computer. For doing that, we will go to the page of the Flight Gear, which is: https://www.flightgear.org/download/main-program/ . There, we choose the appropriate download for our computer, and we follow the steps of the download. We recommend to download the Flight Gear for Linux but if you prefered the Windows version, we add here a video of communication between Windows and your Linux virtual machine with the simulator: https://drive.google.com/file/d/1Hn2pse_LFLGliL5lF6xQm9vHV6xEAYSg/view 
 
-Step 2:
+## Step 2:
 Download the "ex3" folder where are all the documents of the Flight Simulator Interpret program.
 
-Step 3:
+## Step 3:
 
-#If you want to use CLion:
+### If you want to use CLion:
 
 A) Enter to CLion, go to File, and then to New CMake Project from Sources.
 
