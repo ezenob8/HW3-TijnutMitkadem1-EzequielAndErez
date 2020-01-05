@@ -27,21 +27,31 @@ Download the "ex3" folder where are all the documents of the Flight Simulator In
 
 ***B)*** After that select the ex3 folder and mark OK.
 
-C) Choose the option: Import as a new CMake project, mark the cmake-build-debug folder and open the file called      CMakeLists.txt. 
+***C)*** Choose the option: Import as a new CMake project, mark the cmake-build-debug folder and open the file called      CMakeLists.txt. 
 
-D) Select OK, and then choose the option of New Window. 
+***D)*** Select OK, and then choose the option of New Window. 
 
-E) Now that we have the project opened, select ex3 folder, and open the CMakeLists.txt file for editting it.
+***E)*** Now that we have the project opened, select ex3 folder, and open the CMakeLists.txt file for editting it.
 
-F) In CMakeLists.txt, paste this below the line 4: set(CMAKE_CXX_FLAGS -pthread)
+***F)*** In CMakeLists.txt, paste this below the line 4: set(CMAKE_CXX_FLAGS -pthread)
 
-G) Then, go to the upper bar to Run, and select EditConfigurations...
+***G)*** Then, go to the upper bar to Run, and select EditConfigurations...
 
-H) Finally, write in Program arguments: fly.txt , and select OK.
+***H)*** Finally, write in Program arguments: fly.txt , and select OK.
 
 
-### Compiling:
-g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -o FGinterpreter.out -pthread
+
+#### If you want to do it by Command Line:
+
+***A)*** Open a Terminal.
+
+***B)*** Change to (cd) ex3 folder.
+
+***C)*** Paste this in the Terminal and do enter:
+you@yourhost:~$ g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -o FGinterpreter.out -pthread
+
+***D)*** Write in Terminal this to run the program:
+you@yourhost:~$ ./FGinterpreter.out cmake-build-debug/fly.txt
 
 ## Built With
 * **[Ubuntu](https://ubuntu.com/download/desktop) - Version "buster/sid"** - 5.0.0-37-generic #40~18.04.1-Ubuntu SMP UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
@@ -51,7 +61,7 @@ g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -o FGin
 ## Authors
 
 * **Ezequiel Glocer**
-* **Erez Rizegvsky**
+* **Erez Rigevsky**
 
 ## License
 
