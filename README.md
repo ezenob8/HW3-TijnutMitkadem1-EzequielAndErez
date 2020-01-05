@@ -21,7 +21,22 @@ Download the "ex3" folder where are all the documents of the Flight Simulator In
 
 Step 3:
 If you want to use CLion:
-Enter to CLion, go to File, then to New CMake Project from Sources. After that select the ex3 folder and mark OK. Finally choose the option: Import as a new CMake project, mark the cmake-build-debug folder and the file called CMakeLists.txt. Select OK, and then choose the option of New Window
+
+   A) Enter to CLion, go to File, and then to New CMake Project from Sources.
+
+   B) After that select the ex3 folder and mark OK.
+
+   C) Choose the option: Import as a new CMake project, mark the cmake-build-debug folder and open the file called      CMakeLists.txt. 
+
+  D) Select OK, and then choose the option of New Window. 
+
+   E) Now that we have the project opened, select ex3 folder, and open the CMakeLists.txt file for editting it.
+
+  F) In CMakeLists.txt, paste this below the line 4: set(CMAKE_CXX_FLAGS -pthread)
+
+  G) Then, go to the upper bar to Run, and select EditConfigurations...
+
+  H) Finally, write in Program arguments: fly.txt , and select OK.
 
 
 Compiling:
