@@ -48,9 +48,11 @@ Download the "ex3" folder where are all the documents of the Flight Simulator In
 ***B)*** Change to (cd) ex3 folder.
 
 ***C)*** Paste this in the Terminal and do enter:
+
 you@yourhost:~$ g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -o FGinterpreter.out -pthread
 
 ***D)*** Write in Terminal this to run the program:
+
 you@yourhost:~$ ./FGinterpreter.out cmake-build-debug/fly.txt
 
 ## Built With
