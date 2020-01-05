@@ -20,23 +20,24 @@ Step 2:
 Download the "ex3" folder where are all the documents of the Flight Simulator Interpret program.
 
 Step 3:
-If you want to use CLion:
 
-   A) Enter to CLion, go to File, and then to New CMake Project from Sources.
+#If you want to use CLion:
 
-   B) After that select the ex3 folder and mark OK.
+A) Enter to CLion, go to File, and then to New CMake Project from Sources.
 
-   C) Choose the option: Import as a new CMake project, mark the cmake-build-debug folder and open the file called      CMakeLists.txt. 
+B) After that select the ex3 folder and mark OK.
 
-  D) Select OK, and then choose the option of New Window. 
+C) Choose the option: Import as a new CMake project, mark the cmake-build-debug folder and open the file called      CMakeLists.txt. 
 
-   E) Now that we have the project opened, select ex3 folder, and open the CMakeLists.txt file for editting it.
+D) Select OK, and then choose the option of New Window. 
 
-  F) In CMakeLists.txt, paste this below the line 4: set(CMAKE_CXX_FLAGS -pthread)
+E) Now that we have the project opened, select ex3 folder, and open the CMakeLists.txt file for editting it.
 
-  G) Then, go to the upper bar to Run, and select EditConfigurations...
+F) In CMakeLists.txt, paste this below the line 4: set(CMAKE_CXX_FLAGS -pthread)
 
-  H) Finally, write in Program arguments: fly.txt , and select OK.
+G) Then, go to the upper bar to Run, and select EditConfigurations...
+
+H) Finally, write in Program arguments: fly.txt , and select OK.
 
 
 Compiling:
