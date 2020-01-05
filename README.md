@@ -71,6 +71,8 @@ This project is licensed under the Apache License 2.0
 
 ## Thanks to:
 (The TA Michael from 2018/19)
+
 http://wiki.flightgear.org/New_to_FlightGear
+
 http://wiki.flightgear.org/Autostart
 
